@@ -8,6 +8,7 @@
                 background-color: grey;
                 padding: 10px;
                 margin: 5px;
+                border-radius: 10px;
             }
             nav ol {
                 display: flex;
@@ -39,13 +40,13 @@
     <header>
         <nav>
              <ol>
-                <li><a href="#">Home</a> </li>
-                <li><a href="#">Princiapl</a> </li>
-                <li><a href="#">Contato</a> </li>
+                <li><a href="#main">Home</a> </li>
+                <li><a href="#main">Princiapl</a> </li>
+                <li><a href="#footer">Contato</a> </li>
             </ol>
         </nav>
     </header>
-    <main>
+    <main id="main">
         <section>
             <h1>Desafio DIO TAGS</h1>
              <p>Este desafio para. <mark>verificar</mark> o conceito de <small>Tag small</small>, <i>textos em itálico</i>, <u>textos sublinhado</u> e <strong>textos em negrito</strong></p>
@@ -76,9 +77,8 @@
                 </ul>
        </section>
        <section>
-        <h5>Uso de links</h5>
-            <a href="https://www.google.com">google</a>
-            <hr>
+        <h5>Uso de links <a href="https://www.google.com">google</a></h5>
+        <hr>
         <h6>Título extremamente pequeno</h6>
        </section>
        <section>
@@ -89,10 +89,13 @@
     
             <p>Texto com abreviação: <abbr title="Exemplo de Abreviação">Abrev.</abbr></p>
        </section>
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220895.40937376895!2d-51.34195349859952!3d-30.10876718392992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95199cd2566acb1d%3A0x603111a89f87e91f!2sPorto%20Alegre%2C%20RS!5e0!3m2!1spt-BR!2sbr!4v1750019309384!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Vilson Knaak Todos os direitos reservados.</p>
-        <p>Contato: <a href="mailto:vilsonknaak@hotmail.com">Contate-me</a></p>
+    <footer id="footer">
+        <p>&copy; 2025 Vilson Knaak Todos os direitos reservados.</p>   
+        <p>Contato: <a href="mailto:vilsonknaak@hotmail.com">Contate-me</a></p>
     </footer>
 </body>
 </html>
